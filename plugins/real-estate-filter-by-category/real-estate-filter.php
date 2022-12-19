@@ -60,11 +60,11 @@ function ref_filter_function()
                                <div class="info-sizes">';
                                $area = get_field( "area" );
                                if( $area ) {
-                $res .='<div class="info-size"><img src="'. get_stylesheet_directory_uri().'/assets/img/size.svg" alt="">'. $area . ' КВ</div>';
+                $res .='<div class="info-size"><img src="'. get_stylesheet_directory_uri().'/assets/img/size.svg" alt="">'. $area . ' м²</div>';
                                }
                                $living_area = get_field( "living_area" );
                                if( $living_area ) {
-                $res.='<div class="info-livesize"><img src="'.get_stylesheet_directory_uri().'/assets/img/live-size.svg" alt="">'.$living_area . ' КВ</div>';
+                $res.='<div class="info-livesize"><img src="'.get_stylesheet_directory_uri().'/assets/img/live-size.svg" alt="">'.$living_area . ' м²</div>';
                                }
                                $floor = get_field( "floor" );
                                if( $floor ) {
