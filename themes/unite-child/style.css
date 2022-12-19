@@ -1,0 +1,75 @@
+/* 
+Theme Name:		 Unite Child
+Description:	 Unite Child is a child theme of Unite
+Author:			 Vahan Hakobyan
+Template:		 unite
+Version:		 1.0.0
+Text Domain:	 unite-child
+*/
+.real-estate-listing {
+    column-count: 2;
+}
+
+.real-estate-listing .real-estate-item {
+    margin-bottom:15px;
+}
+.real-estate-listing .real-estate-item .featured-image  {
+    height: 230px;
+    width: 100%;
+    overflow: hidden;
+}
+.real-estate-listing .real-estate-item .featured-image img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+
+.real-estate-listing .real-estate-item a{
+    color:#000;
+
+}
+.real-estate-listing .real-estate-item a:hover, .real-estate-listing .real-estate-item a:active,.real-estate-listing .real-estate-item a:focus{
+    text-decoration: none;
+}
+
+.real-estate-listing .real-estate-item .meta {
+    padding: 15px 20px;
+    background: #eee;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.real-estate-listing .real-estate-item .meta img {
+    width: 24px;
+}
+
+.real-estate-listing .real-estate-item .meta .info-sizes {
+    display: flex;
+    gap: 17px;
+}
+
+.real-estate-listing .real-estate-item .meta img {
+    margin-right: 10px;
+}
+
+.real-estate-listing .real-estate-item .meta .info-sizes > div, .real-estate-listing .real-estate-item .meta .info-address, .real-estate-listing .real-estate-item .meta .info-price{
+    display:flex;
+    align-items: center;
+}
+
+.real-estate-listing .real-estate-item  .info-title {
+    margin: 0 0 10px 0;
+    font-size: 20px;
+}
+
+.info-sizes,.info-address{
+    opacity: 0.7;
+}
+
+@media (max-width:520px){
+    .real-estate-listing {
+        column-count: 1;
+    }
+}
